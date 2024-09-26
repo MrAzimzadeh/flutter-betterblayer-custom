@@ -116,13 +116,13 @@ class CustomPlayerControl extends StatelessWidget {
                   },
                 ),
               ),
-              // Sadece PIP butonuna tıklanınca PIP modu aktifleşir
+
               Positioned(
                 right: 20,
                 bottom: 90,
                 child: IconButton(
                   onPressed: () {
-                    controller.enablePictureInPicture(videoKey); // PIP Butonu
+                    controller.enablePictureInPicture(videoKey);
                   },
                   icon: const Icon(
                     Icons.picture_in_picture_alt_rounded,
